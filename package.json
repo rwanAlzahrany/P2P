@@ -1,0 +1,24 @@
+{
+  "name": "peer-skill-swap-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Peer Skill Swap application",
+  "main": "server.js",
+  "scripts": {
+    "start": " cd backend && node server.js",
+    "dev": "cd backend && nodemon server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "node"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
